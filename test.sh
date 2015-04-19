@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # Cracking RSA
-# Author: 	Ganix (crypto@gmail.com)
+# Author: 	sganis
 # Date:   	30/11/2006
 # Update: 	31/10/2012, using latest msieve 1.50, tested in Mac 1.6
 #			28/03/2014, using mpi with msive 1.52, tested in Ubuntu 12.10
@@ -52,7 +52,7 @@
 # - Finally, compares the found key with the original to verify success 
 
 DIR=$(cd $(dirname $0) && pwd)
-OPENSSL=$DIR/openssl-ganix
+OPENSSL=$DIR/openssl
 MSIEVE=$DIR/msieve
 
 bits=200
