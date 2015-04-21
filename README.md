@@ -34,8 +34,10 @@ M is the message in clear text, then `C = M^e mod n`
 
 ## Breaking RSA:
 
-Well, we have the public key `(e,n)` and we need to find the private key `(d,p,q)`. 
+We have the public key `(e,n)` and we need to find the private key `(d,p,q)`.
+
 `d = e^-1 mod (p-1)(q-1)`, so the unkown data is `p` and `q`. 
+
 We have `n = pq`.
 
 Solution: we must factorize `n`. It seems quite easy, but...
@@ -50,7 +52,9 @@ run ./test.sh [key-length]
 
 To get an idea of time:
 
-`$ for (( i=32; i<=256; i+=8 ));do ./test.sh $i;done 2>&1| grep Success`
+```bash
+$ for (( i=32; i<=256; i+=8 ));do ./test.sh $i;done 2>&1| grep Success
+```
 
 ## How it works:
 
