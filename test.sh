@@ -1,5 +1,6 @@
 #!/bin/bash
 # test.sh script to crack rsa
+# see README for details
 
 DIR=$(cd $(dirname $0) && pwd)
 OPENSSL=$DIR/openssl
