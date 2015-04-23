@@ -11,7 +11,7 @@ Created:
 Updated: 	
 - 31/10/2012, using latest msieve 1.50, tested in Mac 1.6.
 - 28/03/2014, using mpi with msive 1.52, tested in Ubuntu 12.10.
-- 20/04/2015, uploaded to github.
+- 20/04/2015, uploaded to github, tested in Ubuntu 14.04.
 
 ## RSA Concepts
 
